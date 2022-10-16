@@ -7,6 +7,7 @@ public class Main {
         double num = in.nextDouble();
         metersIntoCentimeters(num);
         metersToKilometers(num);
+        gramsToLiters(num);
     }
     public void metersIntoCentimeters(double num){
         num = num * 1000;
@@ -15,5 +16,9 @@ public class Main {
     public void metersToKilometers(double num){
         num = num / 1000;
         System.out.println("Метры в километры: " + num + "\n");
+    }
+    public void gramsToLiters(double num){
+        num = num / 1000;
+        System.out.println("Граммы в литры: " + num + "\n");
     }
 }
