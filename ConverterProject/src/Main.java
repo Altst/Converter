@@ -9,6 +9,7 @@ public class Main {
         metersToKilometers(num);
         gramsToLiters(num);
         litersToGallons(num);
+        celsiusToFahrenheit(num);
     }
     public void metersIntoCentimeters(double num){
         num = num * 1000;
@@ -24,6 +25,10 @@ public class Main {
     }
     public void litersToGallons(double num){
         num = num / 3.785;
-        System.out.println("Граммы в литры: " + num + "\n");
+        System.out.println("Литры в галлоны: " + num + "\n");
+    }
+    public void celsiusToFahrenheit(double num){
+        num = ((num * 1.8)+32);
+        System.out.println("Цельсия в фаренгейты: " + num);
     }
 }
